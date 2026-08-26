@@ -1,12 +1,12 @@
 # Beyond the Squeaky Wheel: 311 Engagement & Equity Analysis
 
 Code and data supporting a dissertation examining whether 311 non-emergency
-service request rates reflect actual urban service need, and which
-demographic characteristics predict over- or under-engagement with 311
-reporting at the census tract level. The analysis covers 18-20 U.S. cities
-and builds three tract-level measures: a 311 Service Request Index (SRI), a
-Service Need Index (SNI) built from physical and land-use conditions, and an
-Engagement Score capturing the gap between the two. A binomial Geographically
+service request rates reflect actual ervice need, and which demographic 
+characteristics predict over- or under-engagement with 311 reporting at the 
+census tract level. The analysis covers 18-20 U.S. cities and builds three 
+tract-level measures: a 311 Service Request Index (SRI), a Service Need 
+Index (SNI) built from physical and land-use conditions, and an Engagement 
+Score capturing the gap between the two. A binomial Geographically
 Weighted Logistic Regression (GLWR) tests which demographic variables predict
 that gap, with SAR, SEM, and SLX spatial regression as supplementary
 robustness checks.
@@ -15,23 +15,23 @@ robustness checks.
 
 ### `311_dissertation_code/`
 
-Notebooks are numbered by their place in the analytical pipeline, not
-sequentially. Gaps in the numbering are reserved for supporting notebooks
-(311 geocoding, additional SNI data assembly, per-city robustness checks)
-planned as later additions and not required to follow the core pipeline
-below.
+Notebooks are numbered by their place in the analytical pipeline. There are supporting
+notebooks that are not yet posted (geocoding data, pulling the raw data from the U.S. 
+Census and for the SNI. They are planned as later additions and are not required to 
+follow the core pipeline below.
 
 | Notebook | File | Description |
 |---|---|---|
-| 1 | `1_311_EDA_v1.r` | Sample 311 data cleaning and exploratory analysis (Chicago and Atlanta shown as worked examples) |
-| 2 | `311_keyword_classifier_v7.ipynb` | Keyword classifier assigning 311 service requests to 77 thematic categories |
-| 3 | `311_SR_keyword_match_v6.ipynb` | Matches classified categories back to each city's raw 311 records |
-| 8 | `GLWR_variable_EDA.r` | Correlation and VIF screening to select the final GLWR predictor set |
-| 9 | `GLWR_SQRT_v6.r` | Binomial GLWR model plus SAR/SEM/SLX supplementary regressions (single-city template, re-run per city) |
-| 10 | `311_tracts_histo_transform_v1.ipynb` | Builds the 311 Service Request Index (SRI) from raw tract-level point counts |
-| 13 | `SNI_03a_SNI_data_prep_v3.ipynb` | Assembles raw per-tract SNI physical/land-use variables |
-| 14 | `SNI_v3_SNI_index_construction.ipynb` | Builds the final Service Need Index (SNI) from the prepped variables |
-| 15 | `Engagement_Score_v4.ipynb` | Calculates the Engagement Score (SRI minus SNI) per tract |
+| 1 | `1_311_EDA_sample.r` | Sample 311 data cleaning and exploratory analysis (Chicago and Atlanta shown as worked examples) |
+| 2 | `2_311_keyword_classifier.ipynb` | Keyword classifier assigning 311 service requests to 77 thematic categories |
+| 3 | `3_311_keyword_match.ipynb` | Matches classified categories back to each city's raw 311 records |
+| 4 | `4_311SRI_construction.ipynb` | Builds the 311 Service Request Index (SRI) from raw tract-level point counts |
+| 5 | `5_SNI_data_preparation.ipynb` | Assembles raw per-tract SNI physical/land-use variables |
+| 6 | `6_SNI_construction.ipynb` | Builds the final Service Need Index (SNI) from the prepped 
+| 7 | `7_Engagement_Score_construction.ipynb` | Calculates the Engagement Score (SRI minus SNI) per tract |
+| 8 | `8_GLWR_variable_EDA.r` | Correlation and VIF screening to select the final GLWR predictor set |
+| 9 | `9_GLWR_regression.r` | Binomial GLWR model plus SAR/SEM/SLX supplementary regressions (single-city template, re-run per city) |
+
 
 ### `311_dissertation_data/`
 
