@@ -4,7 +4,7 @@ Code and data supporting a dissertation examining whether 311 non-emergency
 service request rates reflect actual ervice need, and which demographic 
 characteristics predict over- or under-engagement with 311 reporting at the 
 census tract level. The analysis covers 18-20 U.S. cities and builds three 
-tract-level measures: a 311 Service Request Index (SRI), a Service Need 
+tract-level measures: a 311 Service Request Index (311 SRI), a Service Need 
 Index (SNI) built from physical and land-use conditions, and an Engagement 
 Score capturing the gap between the two. A binomial Geographically
 Weighted Logistic Regression (GLWR) tests which demographic variables predict
@@ -17,8 +17,8 @@ robustness checks.
 
 Notebooks are numbered by their place in the analytical pipeline. There are supporting
 notebooks that are not yet posted (geocoding data, pulling the raw data from the U.S. 
-Census and for the SNI. They are planned as later additions and are not required to 
-follow the core pipeline below.
+Census and for the SNI, etc.). They are planned as later additions and are not required 
+to follow the core pipeline below.
 
 | Notebook | File | Description |
 |---|---|---|
@@ -37,7 +37,7 @@ follow the core pipeline below.
 
 - **`Base_Geographies/`** - census tract and city boundary GeoPackages for all cities in the study
 - **`CSV_datasets/`** - keyword classification results, final tract-level demographics, and final tract-level scores (SRI, SNI, Engagement Score)
-- **`SNI_data/`** - prepped SNI input variables (transit, roads, jobs, housing age, impervious surface) and per-city zoning GeoPackages
+- **`SNI_data/`** - prepped SNI input variables railways, roads, jobs, housing age, impervious surfaces, and per-city zoning GeoPackages
 
 ## Data Availability
 
@@ -48,14 +48,13 @@ limit and could not be uploaded through standard git:
 - `SNI_data/SNI_Overture_POIs.gpkg` (553 MB)
 - `SNI_data/zoning/zoning_Los_Angeles.gpkg` (179 MB)
 
-These are raw input layers consumed by Notebook 13 (`SNI_03a_SNI_data_prep_v3.ipynb`)
+These are raw input layers consumed by Notebook 6 (`6_SNI_construction.ipynb`)
 during SNI variable assembly. Running that notebook from scratch will fail
 without them. All other 17 cities' zoning files are present, and the
-downstream prepped outputs of Notebook 13 (used by every later notebook in
-the pipeline) are included in full, so this only affects someone trying to
-reproduce the SNI raw data assembly step itself, not any other part of the
-analysis. These files are planned for addition via Git Large File Storage
-(LFS) as part of ongoing repository maintenance.
+downstream prepped outputs of Notebook 6 (used by every later notebook in
+the pipeline) are included in full in a prepared CSV file, so this only 
+affects someone trying to reproduce the SNI raw data assembly step itself, 
+not any other part of the analysis. 
 
 ## License
 
