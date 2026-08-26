@@ -1,0 +1,963 @@
+city,code,code_type,full_name,standard_category
+denver,SU,current_code_segment,Single Unit,residential
+denver,TU,current_code_segment,Two Unit,residential
+denver,RH,current_code_segment,Row House,residential
+denver,MU,current_code_segment,Multi Unit,residential
+denver,RX,current_code_segment,Residential Mixed Use,mixed-use
+denver,RO,current_code_segment,Residential Office,mixed-use
+denver,CC,current_code_segment,Commercial Corridor,commercial
+denver,MS,current_code_segment,Main Street,mixed-use
+denver,MX,current_code_segment,Mixed Use,mixed-use
+denver,CCN,current_code_segment,Cherry Creek North,mixed-use
+denver,I-A,current_code_flat,Industrial (Light Industrial),industrial
+denver,I-B,current_code_flat,Industrial (General Industrial),industrial
+denver,OS-A,current_code_flat,Open Space (Public Parks),open_space
+denver,OS-B,current_code_flat,Open Space (Recreation),open_space
+denver,OS-C,current_code_flat,Open Space (Conservation),open_space
+denver,CMP-H,current_code_flat,Campus - Healthcare,institutional
+denver,CMP-H2,current_code_flat,Campus - Healthcare (restrictive form),institutional
+denver,CMP-EI,current_code_flat,Campus - Education Institution,institutional
+denver,CMP-EI2,current_code_flat,Campus - Education Institution (restrictive form),institutional
+denver,CMP-ENT,current_code_flat,Campus - Entertainment,other
+denver,CMP-NWC,current_code_flat,Campus - National Western Center,other
+denver,D-C,current_code_flat,Downtown Core,mixed-use
+denver,D-TD,current_code_flat,Downtown Theater District,mixed-use
+denver,D-LD,current_code_flat,Lower Downtown,mixed-use
+denver,D-CV,current_code_flat,Downtown Civic,institutional
+denver,D-GT,current_code_flat,Downtown Golden Triangle,mixed-use
+denver,D-AS,current_code_flat,Downtown Arapahoe Square,mixed-use
+denver,D-CPV-T,current_code_flat,Downtown Central Platte Valley - Auraria Transition,mixed-use
+denver,D-CPV-R,current_code_flat,Downtown Central Platte Valley - Auraria River,mixed-use
+denver,D-CPV-C,current_code_flat,Downtown Central Platte Valley - Auraria Center,mixed-use
+denver,DIA,current_code_flat,Denver International Airport,other
+denver,O-1,current_code_flat,Open Zone District,other
+denver,B-1,former_ch59_flat,Limited Office District,commercial
+denver,B-A-1,former_ch59_flat,Arterial Office and Multi-Unit Dwellings District,mixed-use
+denver,B-2,former_ch59_flat,Neighborhood Business District,commercial
+denver,B-A-2,former_ch59_flat,Arterial Service District,commercial
+denver,B-3,former_ch59_flat,Shopping Center District,commercial
+denver,B-A-3,former_ch59_flat,Arterial General Business District,commercial
+denver,B-4,former_ch59_flat,General Business District,commercial
+denver,B-A-4,former_ch59_flat,Automobile Sales and Service District,commercial
+denver,B-5,former_ch59_flat,Central Business District,mixed-use
+denver,B-7,former_ch59_flat,Historic Business District,mixed-use
+denver,B-8,former_ch59_flat,Intensive General Business/High Density Residential District,mixed-use
+denver,B-8-A,former_ch59_flat,Arapahoe Square Zone District,mixed-use
+denver,B-8-G,former_ch59_flat,Golden Triangle Zone District,mixed-use
+denver,H-1-A,former_ch59_flat,Hospital Zone District,institutional
+denver,H-1-B,former_ch59_flat,Hospital Zone District,institutional
+denver,H-2,former_ch59_flat,Hospital Zone District,institutional
+denver,I-0,former_ch59_flat,Light Industrial/Office District,industrial
+denver,I-1,former_ch59_flat,General Industrial District,industrial
+denver,I-2,former_ch59_flat,Heavy Industrial District,industrial
+denver,MS-1,former_ch59_flat,Main Street 1,mixed-use
+denver,MS-2,former_ch59_flat,Main Street 2,mixed-use
+denver,MS-3,former_ch59_flat,Main Street 3,mixed-use
+denver,C-MU-10,former_ch59_flat,Commercial Mixed-Use District,mixed-use
+denver,C-MU-20,former_ch59_flat,Commercial Mixed-Use District,mixed-use
+denver,C-MU-30,former_ch59_flat,Commercial Mixed-Use District,mixed-use
+denver,R-MU-20,former_ch59_flat,Residential Mixed-Use District,mixed-use
+denver,R-MU-30,former_ch59_flat,Residential Mixed-Use District,mixed-use
+denver,T-MU-30,former_ch59_flat,Transit Mixed-Use District,mixed-use
+denver,OS-1,former_ch59_flat,Open Space District,open_space
+denver,P-1,former_ch59_flat,Off-Street Parking District,other
+denver,PRV,former_ch59_flat,Platte River Valley Zone District,mixed-use
+denver,Gateway,former_ch59_flat,Airport Gateway Zone District,mixed-use
+denver,R-S-4,former_ch59_flat,Single-Unit Detached Dwellings - Suburban Density,residential
+denver,R-X,former_ch59_flat,Attached or Clustered Single-Unit Dwellings - Low Density,residential
+denver,R-0,former_ch59_flat,Single-Unit Detached Dwellings - Low Density,residential
+denver,R-1,former_ch59_flat,Single-Unit Detached Dwellings - Low Density,residential
+denver,R-2,former_ch59_flat,Multi-Unit Dwellings - Low Density,residential
+denver,R-2-A,former_ch59_flat,Multi-Unit Dwellings - Medium Density,residential
+denver,R-2-B,former_ch59_flat,Multi-Unit Dwellings - Medium Density,residential
+denver,R-3-X,former_ch59_flat,Multi-Unit Dwellings - Medium Density,residential
+denver,R-3,former_ch59_flat,Multi-Unit Dwellings - High Density,residential
+denver,R-4,former_ch59_flat,Multi-Unit Dwellings and/or Offices - High Density,mixed-use
+denver,R-4-X,former_ch59_flat,High Density Office/Multiple Unit with Special Review,mixed-use
+denver,R-5,former_ch59_flat,Institutional District,institutional
+charlotte,N1-A,current_code_flat,Neighborhood 1 Zoning District,residential
+charlotte,N1-B,current_code_flat,Neighborhood 1 Zoning District,residential
+charlotte,N1-C,current_code_flat,Neighborhood 1 Zoning District,residential
+charlotte,N1-D,current_code_flat,Neighborhood 1 Zoning District,residential
+charlotte,N1-E,current_code_flat,Neighborhood 1 Zoning District,residential
+charlotte,N1-F,current_code_flat,Neighborhood 1 Zoning District,residential
+charlotte,N2-A,current_code_flat,Neighborhood 2 Zoning District,residential
+charlotte,N2-B,current_code_flat,Neighborhood 2 Zoning District,residential
+charlotte,N2-C,current_code_flat,Neighborhood 2 Zoning District,residential
+charlotte,CG,current_code_flat,General Commercial Zoning District,commercial
+charlotte,CR,current_code_flat,Regional Commercial Zoning District,commercial
+charlotte,IC-1,current_code_flat,Institutional Campus Zoning District,institutional
+charlotte,IC-2,current_code_flat,Institutional Campus Zoning District,institutional
+charlotte,ML-1,current_code_flat,Manufacturing and Logistics Zoning District,industrial
+charlotte,ML-2,current_code_flat,Manufacturing and Logistics Zoning District,industrial
+charlotte,IMU,current_code_flat,Innovation Mixed-Use Zoning District,mixed-use
+charlotte,NC,current_code_flat,Neighborhood Center Zoning District,mixed-use
+charlotte,CAC-1,current_code_flat,Community Activity Center Zoning District,mixed-use
+charlotte,CAC-2,current_code_flat,Community Activity Center Zoning District,mixed-use
+charlotte,RAC,current_code_flat,Regional Activity Center Zoning District,mixed-use
+charlotte,UE,current_code_flat,Uptown Edge Zoning District,mixed-use
+charlotte,UC,current_code_flat,Uptown Core Zoning District,mixed-use
+charlotte,TOD-UC,current_code_flat,Transit Urban Center Zoning District,mixed-use
+charlotte,TOD-NC,current_code_flat,Transit Neighborhood Center Zoning District,mixed-use
+charlotte,TOD-CC,current_code_flat,Transit Community Center Zoning District,mixed-use
+charlotte,TOD-TR,current_code_flat,Transit Transition Zoning District,mixed-use
+charlotte,MHP,current_code_flat,Manufactured Home Park District,residential
+charlotte,HDO,overlay_not_base,Historic District Overlay,other
+charlotte,HDO-S,overlay_not_base,Streetside Historic District Overlay,other
+charlotte,NCO,overlay_not_base,Neighborhood Character Overlay District,other
+charlotte,RIO,overlay_not_base,Residential Infill Overlay District,other
+charlotte,CCO,overlay_not_base,Cottage Court Overlay District,other
+charlotte,MHO,overlay_not_base,Manufactured Home Overlay,other
+charlotte,ANDO,overlay_not_base,Airport Noise Disclosure Overlay,other
+san_francisco,P,current_code_flat,Public,institutional
+san_francisco,RH-1,current_code_flat,Residential House One Family (One Unit Per Lot),residential
+san_francisco,RH-1(D),current_code_flat,Residential House One Family Detached,residential
+san_francisco,RH-1(S),current_code_flat,Residential House One Family Secondary Unit,residential
+san_francisco,RH-2,current_code_flat,Residential House Two Family,residential
+san_francisco,RH-3,current_code_flat,Residential House Three Family,residential
+san_francisco,RM-1,current_code_flat,Residential Mixed Low Density,residential
+san_francisco,RM-2,current_code_flat,Residential Mixed Moderate Density,residential
+san_francisco,RM-3,current_code_flat,Residential Mixed Medium Density,residential
+san_francisco,RM-4,current_code_flat,Residential Mixed High Density,residential
+san_francisco,RC-3,current_code_flat,Residential-Commercial Combined Medium Density,mixed-use
+san_francisco,RC-4,current_code_flat,Residential-Commercial Combined High Density,mixed-use
+san_francisco,RTO-M,current_code_flat,Residential Transit Oriented Mission,residential
+san_francisco,RH-DTR,current_code_flat,Rincon Hill Downtown Residential,residential
+san_francisco,SB-DTR,current_code_flat,South Beach Downtown Residential,residential
+san_francisco,TB-DTR,current_code_flat,Transbay Downtown Residential,residential
+san_francisco,NC-1,current_code_flat,Neighborhood Commercial Cluster,commercial
+san_francisco,NC-2,current_code_flat,Neighborhood Commercial Small Scale,commercial
+san_francisco,NC-3,current_code_flat,Neighborhood Commercial Moderate Scale,commercial
+san_francisco,NC-S,current_code_flat,Neighborhood Commercial Shopping Center,commercial
+san_francisco,NCD-24th-Noe-Valley,current_code_flat,24th Street-Noe Valley Neighborhood Commercial,commercial
+san_francisco,NCD-Broadway,current_code_flat,Broadway Neighborhood Commercial,commercial
+san_francisco,NCD-Castro,current_code_flat,Castro Street Neighborhood Commercial,commercial
+san_francisco,NCD-Excelsior,current_code_flat,Excelsior Outer Mission Street Neighborhood Commercial District,commercial
+san_francisco,NCD-Haight,current_code_flat,Haight Street Neighborhood Commercial,commercial
+san_francisco,NCD-Inner Clement,current_code_flat,Inner Clement Street Neighborhood Commercial,commercial
+san_francisco,NCD-Inner Sunset,current_code_flat,Inner Sunset Neighborhood Commercial,commercial
+san_francisco,NCD-Irving,current_code_flat,Irving Street Neighborhood Commercial District,commercial
+san_francisco,NCD-Japantown,current_code_flat,Japantown Neighborhood Commercial District,commercial
+san_francisco,NCD-Judah,current_code_flat,Judah Street Neighborhood Commercial District,commercial
+san_francisco,NCD-Noriega,current_code_flat,Noriega Street Neighborhood Commercial District,commercial
+san_francisco,NCD-North Beach,current_code_flat,North Beach Neighborhood Commercial,commercial
+san_francisco,NCD-Outer Clement,current_code_flat,Outer Clement Street Neighborhood Commercial,commercial
+san_francisco,NCD-Pacific,current_code_flat,Pacific Avenue Neighborhood Commercial,commercial
+san_francisco,NCD-Polk,current_code_flat,Polk Street Neighborhood Commercial,commercial
+san_francisco,NCD-Sacramento,current_code_flat,Sacramento Street Neighborhood Commercial,commercial
+san_francisco,NCD-Taraval,current_code_flat,Taraval Street Neighborhood Commercial District,commercial
+san_francisco,NCD-Union,current_code_flat,Union Street Neighborhood Commercial,commercial
+san_francisco,NCD-Upper Fillmore,current_code_flat,Upper Fillmore Neighborhood Commercial District,commercial
+san_francisco,NCD-Upper Market,current_code_flat,Upper Market Street Neighborhood Commercial,commercial
+san_francisco,NCD-West Portal,current_code_flat,West Portal Avenue Neighborhood Commercial,commercial
+san_francisco,NCT-1,current_code_flat,Neighborhood Commercial Transit 1,commercial
+san_francisco,NCT-2,current_code_flat,Neighborhood Commercial Transit-2,commercial
+san_francisco,NCT-3,current_code_flat,Moderate Scale Neighborhood Commercial Transit District,commercial
+san_francisco,NCT-24th-Mission,current_code_flat,24th-Mission Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Divisadero,current_code_flat,Divisadero Street Neighborhood Commercial Transit District,commercial
+san_francisco,NCT-Fillmore,current_code_flat,Fillmore Street Neighborhood Commercial Transit District,commercial
+san_francisco,NCT-Folsom,current_code_flat,Folsom Street Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Glen Park,current_code_flat,Glen Park Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Hayes,current_code_flat,Hayes Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Mission,current_code_flat,Mission Street Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Ocean,current_code_flat,Ocean Avenue Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Soma,current_code_flat,Soma Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Upper Market,current_code_flat,Upper Market Neighborhood Commercial Transit,commercial
+san_francisco,NCT-Valencia,current_code_flat,Valencia Street Neighborhood Commercial Transit,commercial
+san_francisco,CRNC,current_code_flat,Chinatown Residential-Neighborhood Commercial,mixed-use
+san_francisco,CVR,current_code_flat,Chinatown Visitor Retail,mixed-use
+san_francisco,CCB,current_code_flat,Chinatown Community Business,mixed-use
+san_francisco,PM-MU1,current_code_flat,Parkmerced Mixed Use-Social Heart,mixed-use
+san_francisco,PM-MU2,current_code_flat,Parkmerced Mixed Use-Neighborhood Commons,mixed-use
+san_francisco,PM-S,current_code_flat,Parkmerced School,institutional
+san_francisco,PM-CF,current_code_flat,Parkmerced Community/Fitness,institutional
+san_francisco,PM-OS,current_code_flat,Parkmerced Open Space,open_space
+san_francisco,PM-R,current_code_flat,Parkmerced Residential,residential
+san_francisco,SPD,current_code_flat,SoMa-South Park,mixed-use
+san_francisco,RED,current_code_flat,South of Market Residential Enclave,residential
+san_francisco,RED-MX,current_code_flat,Residential Enclave Mixed Use,mixed-use
+san_francisco,RSD,current_code_flat,Residential/Service,mixed-use
+san_francisco,SLI,current_code_flat,SoMa Service/Light Industrial,industrial
+san_francisco,SALI,current_code_flat,Service/Arts/Light Industrial,industrial
+san_francisco,SSO,current_code_flat,SoMa Service/Secondary Office,commercial
+san_francisco,MUG,current_code_flat,Mixed Use-General,mixed-use
+san_francisco,WMUG,current_code_flat,Western SoMa Mixed Use-General,mixed-use
+san_francisco,MUO,current_code_flat,Mixed Use-Office,mixed-use
+san_francisco,WMUO,current_code_flat,Western SoMa Mixed Use-Office,mixed-use
+san_francisco,MUR,current_code_flat,Mixed Use-Residential,mixed-use
+san_francisco,UMU,current_code_flat,Urban Mixed Use,mixed-use
+san_francisco,RCD,current_code_flat,Regional Commercial,commercial
+san_francisco,C-2,current_code_flat,Community Business,commercial
+san_francisco,C-3-R,current_code_flat,Downtown Retail,commercial
+san_francisco,C-3-G,current_code_flat,Downtown General,commercial
+san_francisco,C-3-O,current_code_flat,Downtown Office,commercial
+san_francisco,C-3-O(SD),current_code_flat,Downtown Office Special Development,commercial
+san_francisco,MB-OS,current_code_flat,Mission Bay Open Space,open_space
+san_francisco,MB-O,current_code_flat,Mission Bay Office District,commercial
+san_francisco,M-1,current_code_flat,Light Industrial,industrial
+san_francisco,M-2,current_code_flat,Heavy Industrial,industrial
+san_francisco,PDR-1-B,current_code_flat,PDR Light Industrial Buffer,industrial
+san_francisco,PDR-1-D,current_code_flat,Production Distribution & Repair 1 Design,industrial
+san_francisco,PDR-1-G,current_code_flat,Production Distribution & Repair 1 General,industrial
+san_francisco,PDR-2,current_code_flat,PDR Production Distribution And Repair,industrial
+boston,1F,current_code_flat,One-Family Residential Subdistrict,residential
+boston,2F,current_code_flat,Two-Family Residential Subdistrict,residential
+boston,3F,current_code_flat,Three-Family Residential Subdistrict,residential
+boston,MFR,current_code_flat,Multifamily Residential Subdistrict,residential
+boston,CPS,current_code_flat,Conservation Protection Subdistrict,open_space
+boston,OS,current_code_flat,Open Space District,open_space
+boston,OS-A,current_code_flat,Air-Right Open Space Subdistrict,open_space
+boston,OS-CM,current_code_flat,Cemetery Open Space Subdistrict,open_space
+boston,OS-G,current_code_flat,Community Garden Open Space Subdistrict,open_space
+boston,OS-P,current_code_flat,Parkland Open Space Subdistrict,open_space
+boston,OS-RC,current_code_flat,Recreation Open Space Subdistrict,open_space
+boston,OS-UP,current_code_flat,Urban Plaza Open Space Subdistrict,open_space
+boston,OS-UW,current_code_flat,Urban Wild Open Space Subdistrict,open_space
+boston,LC,current_code_flat,Local Convenience Business Subdistrict,commercial
+boston,NS,current_code_flat,Neighborhood Shopping Business Subdistrict,commercial
+boston,CC,current_code_flat,Community Commercial Business Subdistrict,commercial
+boston,LI,current_code_flat,Local Industrial Subdistrict,industrial
+boston,IS,current_code_flat,Institutional Service District,institutional
+boston,B-1,legacy_code_flat,Retail Business & Offices District,commercial
+boston,B-2,legacy_code_flat,Retail Business & Offices District,commercial
+boston,B-4,legacy_code_flat,Retail Business & Offices District,commercial
+boston,B-8,legacy_code_flat,Retail Business & Offices District,commercial
+boston,B-10,legacy_code_flat,Retail Business & Offices District,commercial
+boston,CE,legacy_code_flat,Commercial Enterprise District,commercial
+boston,Special,other_flat,Special Zoning District,other
+boston,Special (LIA),other_flat,Logan International Airport Special Zoning District,other
+boston,Institutional,legacy_code_flat,Institutional Zoning District,institutional
+boston,IMP,overlay_not_base,Institutional Master Plan District,institutional
+boston,IOD,overlay_not_base,Institutional Overlay District,institutional
+boston,NI,legacy_code_flat,Neighborhood Institutional Subdistrict,institutional
+boston,CF,legacy_code_flat,Community Facility District,institutional
+boston,M-1,legacy_code_flat,Light Manufacturing District,industrial
+boston,M-2,legacy_code_flat,Light Manufacturing District,industrial
+boston,M-3,legacy_code_flat,Light Manufacturing District,industrial
+boston,M-4,legacy_code_flat,Light Manufacturing District,industrial
+boston,I-2,legacy_code_flat,General Manufacturing District,industrial
+boston,W-2,legacy_code_flat,Waterfront Industry District,industrial
+detroit,R1,current_code_flat,Single-Family Residential District,residential
+detroit,R2,current_code_flat,Two-Family Residential District,residential
+detroit,R3,current_code_flat,Low Density Residential District,residential
+detroit,R4,current_code_flat,Thoroughfare Residential District,residential
+detroit,R5,current_code_flat,Medium Density Residential District,residential
+detroit,R6,current_code_flat,High Density Residential District,residential
+detroit,B1,current_code_flat,Restricted Business District,commercial
+detroit,B2,current_code_flat,Local Business and Residential District,mixed-use
+detroit,B3,current_code_flat,Shopping District,commercial
+detroit,B4,current_code_flat,General Business District,commercial
+detroit,B5,current_code_flat,Major Business District,commercial
+detroit,B6,current_code_flat,General Services District,commercial
+detroit,M1,current_code_flat,Limited Industrial District,industrial
+detroit,M2,current_code_flat,Restricted Industrial District,industrial
+detroit,M3,current_code_flat,General Industrial District,industrial
+detroit,M4,current_code_flat,Intensive Industrial District,industrial
+detroit,M5,current_code_flat,Special Industrial District,industrial
+detroit,P1,current_code_flat,Open Parking District,other
+detroit,PC,current_code_flat,Public Center District,institutional
+detroit,PCA,current_code_flat,Restricted Central Business District,commercial
+detroit,PR,current_code_flat,Parks and Recreation District,open_space
+detroit,SD1,current_code_flat,Special District - Small Scale Mixed Use,mixed-use
+detroit,SD2,current_code_flat,Special District - Mixed Use,mixed-use
+detroit,SD4,current_code_flat,Special District - Riverfront Mixed Use,mixed-use
+detroit,SD5,current_code_flat,Special District - Casinos,commercial
+detroit,TM,current_code_flat,Transitional Industrial District,industrial
+detroit,W1,current_code_flat,Waterfront Industrial District,industrial
+miami,T1,current_code_flat,Natural Transect Zone,open_space
+miami,T3,current_code_segment,Sub-Urban Transect Zone,residential
+miami,T5,current_code_segment,Urban Center Transect Zone,mixed-use
+miami,T6,current_code_segment,Urban Core Transect Zone,mixed-use
+miami,CS,current_code_flat,Civic Space Zone,open_space
+miami,CI,current_code_flat,Civic Institution Zone,institutional
+miami,CI-HD,current_code_flat,Civic Institution - Health District Zone,institutional
+miami,D1,current_code_flat,District Zone - Work Place,commercial
+miami,D2,current_code_flat,District Zone - Industrial,industrial
+miami,D3,current_code_flat,Waterfront Industrial District Zone,industrial
+minneapolis,UN1,current_code_flat,Urban Neighborhood District,residential
+minneapolis,UN2,current_code_flat,Urban Neighborhood District,residential
+minneapolis,UN3,current_code_flat,Urban Neighborhood District,residential
+minneapolis,RM1,current_code_flat,Residential Mixed-Use District - Goods and Services,mixed-use
+minneapolis,RM2,current_code_flat,Residential Mixed-Use District - Neighborhood Office and Services,mixed-use
+minneapolis,RM3,current_code_flat,Residential Mixed-Use District - Residence and Major Institutional,mixed-use
+minneapolis,CM1,current_code_flat,Commercial Mixed-Use District - Neighborhood,mixed-use
+minneapolis,CM2,current_code_flat,Commercial Mixed-Use District - Corridor,mixed-use
+minneapolis,CM3,current_code_flat,Commercial Mixed-Use District - Community,mixed-use
+minneapolis,CM4,current_code_flat,Commercial Mixed-Use District - Destination,mixed-use
+minneapolis,DT1,current_code_flat,Downtown Center District,mixed-use
+minneapolis,DT2,current_code_flat,Downtown Destination District,mixed-use
+minneapolis,PR2,current_code_flat,Production and Processing District,industrial
+minneapolis,TR1,current_code_flat,Transportation District,industrial
+new_orleans,OS-N,current_code_flat,Neighborhood Open Space District,open_space
+new_orleans,OS-G,current_code_flat,Greenway Open Space District,open_space
+new_orleans,OS-R,current_code_flat,Regional Open Space District,open_space
+new_orleans,NA,current_code_flat,Natural Areas District,open_space
+new_orleans,OS-CBD,current_code_flat,Central Business Open Space District,open_space
+new_orleans,OS-AR,current_code_flat,Armstrong Regional Park District,open_space
+new_orleans,R-RE,current_code_flat,Rural Residential Estate District,residential
+new_orleans,M-MU,current_code_flat,Maritime Mixed-Use District,mixed-use
+new_orleans,VCR-1,current_code_flat,Vieux Carre Residential District,residential
+new_orleans,VCR-2,current_code_flat,Vieux Carre Residential District,residential
+new_orleans,HMR-1,current_code_flat,Historic Marigny/Treme/Bywater Residential District,residential
+new_orleans,HMR-2,current_code_flat,Historic Marigny/Treme/Bywater Residential District,residential
+new_orleans,HMR-3,current_code_flat,Historic Marigny/Treme/Bywater Residential District,residential
+new_orleans,VCC-1,current_code_flat,Vieux Carre Commercial District,commercial
+new_orleans,VCC-2,current_code_flat,Vieux Carre Commercial District,commercial
+new_orleans,VCE,current_code_flat,Vieux Carre Entertainment District,commercial
+new_orleans,VCE-1,current_code_flat,Vieux Carre Entertainment District,commercial
+new_orleans,VCS,current_code_flat,Vieux Carre Service District,commercial
+new_orleans,VCS-1,current_code_flat,Vieux Carre Service District,commercial
+new_orleans,HMC-1,current_code_flat,Historic Marigny/Treme/Bywater Commercial District,commercial
+new_orleans,HMC-2,current_code_flat,Historic Marigny/Treme/Bywater Commercial District,commercial
+new_orleans,HM-MU,current_code_flat,Historic Marigny/Treme/Bywater Mixed-Use District,mixed-use
+new_orleans,VCP,current_code_flat,Vieux Carre Park District,open_space
+new_orleans,HU-RS,current_code_flat,Historic Urban Neighborhoods Single-Family Residential District,residential
+new_orleans,HU-RD1,current_code_flat,Historic Urban Neighborhoods Two-Family Residential District,residential
+new_orleans,HU-RD2,current_code_flat,Historic Urban Neighborhoods Two-Family Residential District,residential
+new_orleans,HU-RM1,current_code_flat,Historic Urban Neighborhoods Multi-Family Residential District,residential
+new_orleans,HU-RM2,current_code_flat,Historic Urban Neighborhoods Multi-Family Residential District,residential
+new_orleans,HU-B1A,current_code_flat,Historic Urban Neighborhoods Neighborhood Business District,commercial
+new_orleans,HU-B1,current_code_flat,Historic Urban Neighborhoods Neighborhood Business District,commercial
+new_orleans,HU-MU,current_code_flat,Historic Urban Neighborhoods Neighborhood Mixed-Use District,mixed-use
+new_orleans,S-RS,current_code_flat,Suburban Single-Family Residential District,residential
+new_orleans,S-RD,current_code_flat,Suburban Two-Family Residential District,residential
+new_orleans,S-RM1,current_code_flat,Suburban Multi-Family Residential District,residential
+new_orleans,S-RM2,current_code_flat,Suburban Multi-Family Residential District,residential
+new_orleans,S-LRS1,current_code_flat,Lakeview Single-Family Residential District,residential
+new_orleans,S-LRS2,current_code_flat,Lake Vista and Lake Shore Single-Family Residential District,residential
+new_orleans,S-LRS3,current_code_flat,Lakewood and Country Club Gardens Single-Family Residential District,residential
+new_orleans,S-LRD1,current_code_flat,Lake Vista Two-Family Residential District,residential
+new_orleans,S-LRD2,current_code_flat,Lakewood/Parkview Two-Family Residential District,residential
+new_orleans,S-LRM1,current_code_flat,Lake Area Low-Rise Multi-Family Residential District,residential
+new_orleans,S-LRM2,current_code_flat,Lake Area High-Rise Multi-Family Residential District,residential
+new_orleans,S-B1,current_code_flat,Suburban Business District,commercial
+new_orleans,S-B2,current_code_flat,Pedestrian-Oriented Corridor Business District,commercial
+new_orleans,S-LB1,current_code_flat,Lake Area Neighborhood Business District,commercial
+new_orleans,S-LB2,current_code_flat,Lake Area Neighborhood Business District,commercial
+new_orleans,S-LC,current_code_flat,Lake Area General Commercial District,commercial
+new_orleans,S-LP,current_code_flat,Lake Area Neighborhood Park District,open_space
+new_orleans,S-MU,current_code_flat,Suburban Neighborhood Mixed-Use District,mixed-use
+new_orleans,C-1,current_code_flat,General Commercial District,commercial
+new_orleans,C-2,current_code_flat,Auto-Oriented Commercial District,commercial
+new_orleans,C-3,current_code_flat,Heavy Commercial District,commercial
+new_orleans,MU-1,current_code_flat,Medium Intensity Mixed-Use District,mixed-use
+new_orleans,MU-2,current_code_flat,High Intensity Mixed-Use District,mixed-use
+new_orleans,EC,current_code_flat,Educational Campus District,institutional
+new_orleans,MC,current_code_flat,Medical Campus District,institutional
+new_orleans,LI,current_code_flat,Light Industrial District,industrial
+new_orleans,HI,current_code_flat,Heavy Industrial District,industrial
+new_orleans,MI,current_code_flat,Maritime Industrial District,industrial
+new_orleans,BIP,current_code_flat,Business-Industrial Park District,industrial
+new_orleans,CBD-1,current_code_flat,Core Central Business District,commercial
+new_orleans,CBD-2,current_code_flat,Historic Commercial and Mixed-Use District,mixed-use
+new_orleans,CBD-4,current_code_flat,Exposition District,institutional
+new_orleans,CBD-5,current_code_flat,Urban Core Neighborhood Lower Intensity Mixed-Use District,mixed-use
+new_orleans,CBD-6,current_code_flat,Urban Core Neighborhood Mixed-Use District,mixed-use
+austin,LA,current_code_flat,Lake Austin Residence District,residential
+austin,RR,current_code_flat,Rural Residence District,residential
+austin,SF-1,current_code_flat,Single-Family Residence Large Lot District,residential
+austin,SF-2,current_code_flat,Single-Family Residence Standard Lot District,residential
+austin,SF-3,current_code_flat,Family Residence District,residential
+austin,SF-4A,current_code_flat,Single-Family Residence Small Lot District,residential
+austin,SF-4B,current_code_flat,Single-Family Residence Condominium Site District,residential
+austin,SF-5,current_code_flat,Urban Family Residence District,residential
+austin,SF-6,current_code_flat,Townhouse and Condominium Residence District,residential
+austin,MH,current_code_flat,Mobile Home Residence District,residential
+austin,MF-1,current_code_flat,Multifamily Residence Limited Density District,residential
+austin,MF-2,current_code_flat,Multifamily Residence Low Density District,residential
+austin,MF-3,current_code_flat,Multifamily Residence Medium Density District,residential
+austin,MF-4,current_code_flat,Multifamily Residence Moderate-High Density District,residential
+austin,MF-5,current_code_flat,Multifamily Residence High Density District,residential
+austin,MF-6,current_code_flat,Multifamily Residence Highest Density District,residential
+austin,NO,current_code_flat,Neighborhood Office District,commercial
+austin,LO,current_code_flat,Limited Office District,commercial
+austin,GO,current_code_flat,General Office District,commercial
+austin,CR,current_code_flat,Commercial Recreation District,commercial
+austin,LR,current_code_flat,Neighborhood Commercial District,commercial
+austin,GR,current_code_flat,Community Commercial District,commercial
+austin,L,current_code_flat,Lake Commercial District,commercial
+austin,CBD,current_code_flat,Central Business District,commercial
+austin,DMU,current_code_flat,Downtown Mixed Use District,mixed-use
+austin,CS,current_code_flat,General Commercial Services District,commercial
+austin,CS-1,current_code_flat,Commercial-Liquor Sales District,commercial
+austin,CH,current_code_flat,Commercial Highway Services District,commercial
+austin,IP,current_code_flat,Industrial Park District,industrial
+austin,MI,current_code_flat,Major Industry District,industrial
+austin,LI,current_code_flat,Limited Industrial Service District,industrial
+austin,AG,current_code_flat,Agricultural District,open_space
+austin,AV,current_code_flat,Aviation Services District,other
+austin,DR,current_code_flat,Development Reserve District,other
+austin,P,current_code_flat,Public District,institutional
+austin,TOD,current_code_flat,Transit Oriented Development District,mixed-use
+baltimore,R-3,current_code_flat,Detached Residential District,residential
+baltimore,R-4,current_code_flat,Detached and Semi-Detached Residential District,residential
+baltimore,R-5,current_code_flat,Transitional Residential District,residential
+baltimore,R-6,current_code_flat,Garden Rowhouse Residential District,residential
+baltimore,R-7,current_code_flat,Mixed Residential District,residential
+baltimore,R-8,current_code_flat,Rowhouse Residential District,residential
+baltimore,OR,current_code_flat,Office-Residential District,mixed-use
+baltimore,C-1,current_code_flat,Commercial District,commercial
+baltimore,C-1-E,current_code_flat,Commercial District (Employment variant),commercial
+baltimore,C-1-VC,current_code_flat,Commercial District (Village Center variant),commercial
+baltimore,C-2,current_code_flat,Commercial District,commercial
+baltimore,C-3,current_code_flat,Commercial District,commercial
+baltimore,OIC,current_code_flat,Office-Industrial Campus District,mixed-use
+baltimore,IMU-1,current_code_flat,Industrial Mixed-Use District,mixed-use
+baltimore,IMU-2,current_code_flat,Industrial Mixed-Use District,industrial
+baltimore,I-1,current_code_flat,Light Industrial District,industrial
+baltimore,I-2,current_code_flat,General Industrial District,industrial
+baltimore,MI,current_code_flat,Maritime Industrial District,industrial
+baltimore,TOD,current_code_flat,Transit-Oriented Development District,mixed-use
+baltimore,EC,current_code_flat,Educational Campus District,institutional
+baltimore,HC,current_code_flat,Hospital Campus District,institutional
+baltimore,T,current_code_flat,Transportation District,other
+baltimore,PC-1,current_code_flat,Port Covington Subdistrict 1,mixed-use
+baltimore,PC-2,current_code_flat,Port Covington Subdistrict 2,mixed-use
+baltimore,PC-3,current_code_flat,Port Covington Subdistrict 3,mixed-use
+baltimore,PC-4,current_code_flat,Port Covington Subdistrict 4,mixed-use
+chicago,RS1,current_code_flat,Residential Single-Unit (Detached House) District,residential
+chicago,RS2,current_code_flat,Residential Single-Unit (Detached House) District,residential
+chicago,RS3,current_code_flat,Residential Single-Unit (Detached House) District,residential
+chicago,RT3.5,current_code_flat,Residential Two-Flat Townhouse and Multi-Unit District,residential
+chicago,RT4,current_code_flat,Residential Two-Flat Townhouse and Multi-Unit District,residential
+chicago,RM4.5,current_code_flat,Residential Multi-Unit District,residential
+chicago,RM5,current_code_flat,Residential Multi-Unit District,residential
+chicago,RM5.5,current_code_flat,Residential Multi-Unit District,residential
+chicago,RM6,current_code_flat,Residential Multi-Unit District,residential
+chicago,RM6.5,current_code_flat,Residential Multi-Unit District,residential
+chicago,B1,current_code_flat,Neighborhood Shopping District,commercial
+chicago,B2,current_code_flat,Neighborhood Mixed-Use District,mixed-use
+chicago,B3,current_code_flat,Community Shopping District,commercial
+chicago,C1,current_code_flat,Neighborhood Commercial District,commercial
+chicago,C2,current_code_flat,Motor Vehicle-Related Commercial District,commercial
+chicago,DC,current_code_flat,Downtown Core District,mixed-use
+chicago,DX,current_code_flat,Downtown Mixed-Use District,mixed-use
+chicago,DR,current_code_flat,Downtown Residential District,residential
+chicago,DS,current_code_flat,Downtown Service District,commercial
+chicago,M1,current_code_flat,Limited Manufacturing/Business Park District,industrial
+chicago,PMD,current_code_flat,Planned Manufacturing District,industrial
+cincinnati,SF-2,current_code_flat,Single-Family District (2000 sf lot),residential
+cincinnati,SF-4,current_code_flat,Single-Family District (4000 sf lot),residential
+cincinnati,SF-6,current_code_flat,Single-Family District (6000 sf lot),residential
+cincinnati,SF-10,current_code_flat,Single-Family District (10000 sf lot),residential
+cincinnati,SF-20,current_code_flat,Single-Family District (20000 sf lot),residential
+cincinnati,RMX,current_code_flat,Residential Mixed District,residential
+cincinnati,RM-0.7,current_code_flat,Residential Multi-Family District,residential
+cincinnati,RM-1.2,current_code_flat,Residential Multi-Family District,residential
+cincinnati,RM-2.0,current_code_flat,Residential Multi-Family District,residential
+cincinnati,CN,current_code_flat,Neighborhood Commercial District,commercial
+cincinnati,CC,current_code_flat,Community Commercial District,commercial
+cincinnati,CG,current_code_flat,General Commercial District,commercial
+cincinnati,OL,current_code_flat,Office Limited District,commercial
+cincinnati,OG,current_code_flat,Office General District,commercial
+cincinnati,UM,current_code_flat,Urban Mixed District,mixed-use
+cincinnati,DD,current_code_flat,Downtown Development District,mixed-use
+cincinnati,RF-R,current_code_flat,Riverfront Residential District,residential
+cincinnati,RF-C,current_code_flat,Riverfront Commercial District,commercial
+cincinnati,RF-M,current_code_flat,Riverfront Manufacturing District,industrial
+cincinnati,PR,current_code_flat,Parks and Recreation District,open_space
+cincinnati,IR,current_code_flat,Institutional District,institutional
+dallas,A(A),current_code_flat,Agricultural District,open_space
+dallas,R-1ac(A),current_code_flat,Single Family 1 Acre District,residential
+dallas,R-1/2ac(A),current_code_flat,Single Family 1/2 Acre District,residential
+dallas,R-16(A),current_code_flat,Single Family 16000 Square Feet District,residential
+dallas,R-13(A),current_code_flat,Single Family 13000 Square Feet District,residential
+dallas,R-10(A),current_code_flat,Single Family 10000 Square Feet District,residential
+dallas,R-7.5(A),current_code_flat,Single Family 7500 Square Feet District,residential
+dallas,R-5(A),current_code_flat,Single Family 5000 Square Feet District,residential
+dallas,D,current_code_flat,Duplex District,residential
+dallas,TH-1(A),current_code_flat,Townhouse District,residential
+dallas,TH-2(A),current_code_flat,Townhouse District,residential
+dallas,TH-3(A),current_code_flat,Townhouse District,residential
+dallas,CH,current_code_flat,Clustered Housing District,residential
+dallas,MF-1(A),current_code_flat,Multifamily District,residential
+dallas,MF-2(A),current_code_flat,Multifamily District,residential
+dallas,MF-3(A),current_code_flat,Multifamily District,residential
+dallas,MF-4(A),current_code_flat,Multifamily District,residential
+dallas,MH(A),current_code_flat,Mobile Home District,residential
+dallas,MU-2,current_code_flat,Mixed Use District,mixed-use
+dallas,MU-3,current_code_flat,Mixed Use District,mixed-use
+indianapolis,D-A,current_code_flat,Agricultural Dwelling District,open_space
+indianapolis,D-S,current_code_flat,Dwelling Suburban District,residential
+indianapolis,D-1,current_code_flat,Dwelling District One,residential
+indianapolis,D-2,current_code_flat,Dwelling District Two,residential
+indianapolis,D-3,current_code_flat,Dwelling District Three,residential
+indianapolis,D-4,current_code_flat,Dwelling District Four,residential
+indianapolis,D-5,current_code_flat,Dwelling District Five,residential
+indianapolis,D-5II,current_code_flat,Dwelling District Five-Two,residential
+indianapolis,D-6,current_code_flat,Dwelling District Six,residential
+indianapolis,D-6II,current_code_flat,Dwelling District Six-Two,residential
+indianapolis,D-7,current_code_flat,Dwelling District Seven,residential
+indianapolis,D-8,current_code_flat,Dwelling District Eight,residential
+indianapolis,D-9,current_code_flat,Dwelling District Nine,residential
+indianapolis,D-10,current_code_flat,Dwelling District Ten,residential
+indianapolis,D-11,current_code_flat,Dwelling District Eleven,residential
+indianapolis,MU-1,current_code_flat,Mixed Use District One,mixed-use
+indianapolis,MU-2,current_code_flat,Mixed Use District Two,mixed-use
+indianapolis,MU-3,current_code_flat,Mixed Use District Three,mixed-use
+indianapolis,MU-4,current_code_flat,Mixed Use District Four,mixed-use
+indianapolis,C-1,current_code_flat,Commercial District One,commercial
+indianapolis,C-3,current_code_flat,Commercial District Three,commercial
+indianapolis,C-4,current_code_flat,Commercial District Four,commercial
+indianapolis,C-5,current_code_flat,Commercial District Five,commercial
+indianapolis,C-7,current_code_flat,Commercial District Seven,commercial
+indianapolis,I-1,current_code_flat,Industrial District One,industrial
+indianapolis,I-2,current_code_flat,Industrial District Two,industrial
+indianapolis,I-3,current_code_flat,Industrial District Three,industrial
+indianapolis,I-4,current_code_flat,Industrial District Four,industrial
+indianapolis,CBD-1,current_code_flat,Central Business District One,mixed-use
+indianapolis,CBD-2,current_code_flat,Central Business District Two,mixed-use
+indianapolis,CBD-3,current_code_flat,Central Business District Three,mixed-use
+kansas_city,R-80,current_code_flat,Residential 80,residential
+kansas_city,R-10,current_code_flat,Residential 10,residential
+kansas_city,R-7.5,current_code_flat,Residential 7.5,residential
+kansas_city,R-6,current_code_flat,Residential 6,residential
+kansas_city,R-5,current_code_flat,Residential 5,residential
+kansas_city,R-2.5,current_code_flat,Residential 2.5,residential
+kansas_city,R-1.5,current_code_flat,Residential 1.5,residential
+kansas_city,R-0.75,current_code_flat,Residential 0.75,residential
+kansas_city,R-0.5,current_code_flat,Residential 0.5,residential
+kansas_city,R-0.3,current_code_flat,Residential 0.3,residential
+kansas_city,O,current_code_flat,Office District,commercial
+kansas_city,B1,current_code_flat,Neighborhood Business 1 District,commercial
+kansas_city,B2,current_code_flat,Neighborhood Business 2 District,commercial
+kansas_city,B3,current_code_flat,Community Business District,commercial
+kansas_city,B4,current_code_flat,Heavy Business/Commercial District,commercial
+los_angeles,R1,current_code_flat,One-Family Zone,residential
+los_angeles,R2,current_code_flat,Two-Family Zone,residential
+los_angeles,RD,current_code_flat,Restricted Density Multiple Dwelling Zone,residential
+los_angeles,R3,current_code_flat,Multiple Dwelling Zone,residential
+los_angeles,R4,current_code_flat,Multiple Dwelling Zone (High Density),residential
+los_angeles,R5,current_code_flat,Multiple Dwelling Zone (Highest Density),residential
+los_angeles,C1,current_code_flat,Limited Commercial Zone,commercial
+los_angeles,C1.5,current_code_flat,Limited Commercial Zone,commercial
+los_angeles,C2,current_code_flat,Commercial Zone,commercial
+los_angeles,C4,current_code_flat,Commercial Zone,commercial
+los_angeles,C5,current_code_flat,Central Commercial Zone,commercial
+los_angeles,MR1,current_code_flat,Restricted Industrial Zone,industrial
+los_angeles,MR2,current_code_flat,Restricted Industrial Zone,industrial
+los_angeles,M1,current_code_flat,Limited Industrial Zone,industrial
+los_angeles,M2,current_code_flat,Light Industrial Zone,industrial
+los_angeles,M3,current_code_flat,Heavy Industrial Zone,industrial
+nashville,AG,current_code_flat,Agricultural District,open_space
+nashville,AR2a,current_code_flat,Agricultural District (2 acre minimum),open_space
+nashville,RS80,current_code_flat,Single-Family Residential District,residential
+nashville,RS40,current_code_flat,Single-Family Residential District,residential
+nashville,RS30,current_code_flat,Single-Family Residential District,residential
+nashville,RS20,current_code_flat,Single-Family Residential District,residential
+nashville,RS15,current_code_flat,Single-Family Residential District,residential
+nashville,RS10,current_code_flat,Single-Family Residential District,residential
+nashville,RS7.5,current_code_flat,Single-Family Residential District,residential
+nashville,RS5,current_code_flat,Single-Family Residential District,residential
+nashville,RS3.75,current_code_flat,Single-Family Residential District,residential
+nashville,R80,current_code_flat,One- and Two-Family Residential District,residential
+nashville,R40,current_code_flat,One- and Two-Family Residential District,residential
+nashville,R30,current_code_flat,One- and Two-Family Residential District,residential
+nashville,R20,current_code_flat,One- and Two-Family Residential District,residential
+nashville,R15,current_code_flat,One- and Two-Family Residential District,residential
+nashville,R10,current_code_flat,One- and Two-Family Residential District,residential
+nashville,R8,current_code_flat,One- and Two-Family Residential District,residential
+nashville,R6,current_code_flat,One- and Two-Family Residential District,residential
+nashville,RM2,current_code_flat,Multi-Family Residential District,residential
+nashville,RM4,current_code_flat,Multi-Family Residential District,residential
+nashville,RM6,current_code_flat,Multi-Family Residential District,residential
+nashville,RM9,current_code_flat,Multi-Family Residential District,residential
+nashville,RM15,current_code_flat,Multi-Family Residential District,residential
+nashville,RM20,current_code_flat,Multi-Family Residential District,residential
+nashville,RM40,current_code_flat,Multi-Family Residential District,residential
+nashville,RM60,current_code_flat,Multi-Family Residential District,residential
+nashville,RM80,current_code_flat,Multi-Family Residential District,residential
+nashville,RM100,current_code_flat,Multi-Family Residential District,residential
+nashville,MHP,current_code_flat,Mobile Home Park District,residential
+nashville,MUN,current_code_flat,Mixed Use Neighborhood District,mixed-use
+nashville,MUL,current_code_flat,Mixed Use Limited District,mixed-use
+nashville,MUG,current_code_flat,Mixed Use General District,mixed-use
+nashville,MUI,current_code_flat,Mixed Use Intensive District,mixed-use
+nashville,OR20,current_code_flat,Office and Residential District,mixed-use
+nashville,OR40,current_code_flat,Office and Residential District,mixed-use
+nashville,ORI,current_code_flat,Office and Residential Intensive District,mixed-use
+nashville,ON,current_code_flat,Office Neighborhood District,commercial
+nashville,OL,current_code_flat,Office Limited District,commercial
+nashville,OG,current_code_flat,Office General District,commercial
+nashville,CN,current_code_flat,Commercial Neighborhood District,commercial
+nashville,CL,current_code_flat,Commercial Limited District,commercial
+nashville,CS,current_code_flat,Commercial Service District,commercial
+nashville,CA,current_code_flat,Commercial Attraction District,commercial
+nashville,CF,current_code_flat,Core Frame District,commercial
+nashville,DTC,current_code_flat,Downtown Code District,mixed-use
+nashville,SCN,current_code_flat,Shopping Center Neighborhood District,commercial
+nashville,SCC,current_code_flat,Shopping Center Community District,commercial
+nashville,SCR,current_code_flat,Shopping Center Regional District,commercial
+nashville,IWD,current_code_flat,Industrial Warehousing/Distribution District,industrial
+nashville,IR,current_code_flat,Industrial Restrictive District,industrial
+nashville,IG,current_code_flat,Industrial General District,industrial
+san_diego,OC,current_code_flat,Open Space Base Zone,open_space
+san_diego,OF,current_code_flat,Open Space Base Zone,open_space
+san_diego,OS,current_code_flat,Open Space Base Zone,open_space
+san_diego,AG,current_code_flat,Agricultural Base Zone,open_space
+san_diego,AR,current_code_flat,Agricultural-Residential Base Zone,open_space
+san_diego,RS,current_code_flat,Residential Single-Family Base Zone,residential
+san_diego,RT,current_code_flat,Residential Two-Family/Townhouse Base Zone,residential
+san_diego,RM,current_code_flat,Residential Multiple-Family Base Zone,residential
+san_diego,CN,current_code_flat,Commercial Neighborhood Base Zone,commercial
+san_diego,CR,current_code_flat,Commercial Recreation Base Zone,commercial
+san_diego,CO,current_code_flat,Commercial Office Base Zone,commercial
+san_diego,CV,current_code_flat,Commercial Visitor Base Zone,commercial
+san_diego,CP,current_code_flat,Commercial Professional Base Zone,commercial
+san_diego,CC,current_code_flat,Commercial Community Base Zone,commercial
+san_diego,IP,current_code_flat,Industrial Park Base Zone,industrial
+san_diego,IL,current_code_flat,Industrial Light Base Zone,industrial
+san_diego,IH,current_code_flat,Industrial Heavy Base Zone,industrial
+san_diego,IS,current_code_flat,Industrial Service Base Zone,industrial
+san_diego,RMX,current_code_flat,Residential-Mixed Use Base Zone,mixed-use
+san_diego,EMX,current_code_flat,Employment-Mixed Use Base Zone,mixed-use
+seattle,NR,current_code_flat,Neighborhood Residential,residential
+seattle,SF 5000,current_code_flat,Single-Family (5000 sf lot),residential
+seattle,SF 7200,current_code_flat,Single-Family (7200 sf lot),residential
+seattle,SF 9600,current_code_flat,Single-Family (9600 sf lot),residential
+seattle,LR1,current_code_flat,Lowrise Multifamily 1,residential
+seattle,LR2,current_code_flat,Lowrise Multifamily 2,residential
+seattle,LR3,current_code_flat,Lowrise Multifamily 3,residential
+seattle,MR,current_code_flat,Midrise Multifamily,residential
+seattle,HR,current_code_flat,Highrise Multifamily,residential
+seattle,RC,current_code_flat,Residential-Commercial,mixed-use
+seattle,NC1,current_code_flat,Neighborhood Commercial 1,commercial
+seattle,NC2,current_code_flat,Neighborhood Commercial 2,commercial
+seattle,NC3,current_code_flat,Neighborhood Commercial 3,commercial
+seattle,C1,current_code_flat,Commercial 1,commercial
+seattle,SM,current_code_flat,Seattle Mixed,mixed-use
+seattle,MPC-YT,current_code_flat,Master Planned Community - Yesler Terrace,mixed-use
+seattle,DOC1,current_code_flat,Downtown Office Core 1,mixed-use
+seattle,DOC2,current_code_flat,Downtown Office Core 2,mixed-use
+seattle,DMC,current_code_flat,Downtown Mixed Commercial,mixed-use
+seattle,DMR,current_code_flat,Downtown Mixed Residential,mixed-use
+seattle,PSM,current_code_flat,Pioneer Square Mixed,mixed-use
+seattle,IDM,current_code_flat,International District Mixed,mixed-use
+seattle,IDR,current_code_flat,International District Residential,residential
+seattle,DH1,current_code_flat,Downtown Harborfront 1,mixed-use
+seattle,DH2,current_code_flat,Downtown Harborfront 2,mixed-use
+seattle,PMM,current_code_flat,Pike Market Mixed,mixed-use
+seattle,IG1,current_code_flat,General Industrial 1,industrial
+seattle,IG2,current_code_flat,General Industrial 2,industrial
+seattle,IB,current_code_flat,Industrial Buffer,industrial
+seattle,MML,current_code_flat,Maritime Manufacturing and Logistics,industrial
+new_york,R1,current_code_flat,Residence District (Low Density),residential
+new_york,R2,current_code_flat,Residence District (Low Density),residential
+new_york,R3,current_code_flat,Residence District (Low-Medium Density),residential
+new_york,R4,current_code_flat,Residence District (Medium Density),residential
+new_york,R5,current_code_flat,Residence District (Medium Density),residential
+new_york,R6,current_code_flat,Residence District (Medium-High Density),residential
+new_york,R7,current_code_flat,Residence District (High Density),residential
+new_york,R8,current_code_flat,Residence District (High Density),residential
+new_york,R9,current_code_flat,Residence District (High Density),residential
+new_york,R10,current_code_flat,Residence District (Highest Density),residential
+new_york,R11,current_code_flat,Residence District (Highest Density),residential
+new_york,R12,current_code_flat,Residence District (Highest Density),residential
+new_york,C2,current_code_flat,Commercial District (Local Retail/Service),commercial
+new_york,C3,current_code_flat,Waterfront Recreation District,open_space
+new_york,C4,current_code_flat,General Commercial District (Regional Center),mixed-use
+new_york,C5,current_code_flat,Central Commercial District,commercial
+new_york,C6,current_code_flat,General Central Commercial District,mixed-use
+new_york,C7,current_code_flat,Commercial Amusement District,other
+new_york,C8,current_code_flat,General Service Commercial District,commercial
+new_york,M2,current_code_flat,Medium Manufacturing District,industrial
+new_york,M3,current_code_flat,Heavy Manufacturing District,industrial
+new_york,MX,current_code_flat,Special Mixed Use District,mixed-use
+cincinnati,T3E,current_code_flat,T3 Estate (Cincinnati Form-Based Code Transect Zone),residential
+cincinnati,T3N,current_code_flat,T3 Neighborhood (Cincinnati Form-Based Code Transect Zone),residential
+cincinnati,T4N.MF,current_code_flat,T4 Neighborhood Medium Footprint (Cincinnati Form-Based Code Transect Zone),residential
+cincinnati,T4N.SF,current_code_flat,T4 Neighborhood Small Footprint (Cincinnati Form-Based Code Transect Zone),residential
+cincinnati,T5MS,current_code_flat,T5 Main Street (Cincinnati Form-Based Code Transect Zone),mixed-use
+cincinnati,T5N.LS,current_code_flat,T5 Neighborhood Large Setback (Cincinnati Form-Based Code Transect Zone),residential
+cincinnati,T5F,current_code_flat,T5 Flex (Cincinnati Form-Based Code Transect Zone),mixed-use
+cincinnati,T6C,current_code_flat,T6 Core (Cincinnati Form-Based Code Transect Zone),mixed-use
+minneapolis,R1,legacy_code_flat,Single-family District (Chapter 521 - pre-2023),residential
+minneapolis,R1A,legacy_code_flat,Single-family District (Chapter 521 - pre-2023),residential
+minneapolis,R2,legacy_code_flat,Two-family District (Chapter 521 - pre-2023),residential
+minneapolis,R2B,legacy_code_flat,Two-family District (Chapter 521 - pre-2023),residential
+minneapolis,R3,legacy_code_flat,Multiple-family District (Chapter 521 - pre-2023),residential
+minneapolis,R4,legacy_code_flat,Multiple-family District (Chapter 521 - pre-2023),residential
+minneapolis,R5,legacy_code_flat,Multiple-family District (Chapter 521 - pre-2023),residential
+minneapolis,R6,legacy_code_flat,Multiple-family District (Chapter 521 - pre-2023),residential
+minneapolis,OR1,legacy_code_flat,Neighborhood Office Residence District (Chapter 521 - pre-2023),mixed-use
+minneapolis,OR2,legacy_code_flat,High Density Office Residence District (Chapter 521 - pre-2023),mixed-use
+minneapolis,C1,legacy_code_flat,Neighborhood Commercial District (Chapter 521 - pre-2023),commercial
+minneapolis,C2,legacy_code_flat,Neighborhood Corridor Commercial District (Chapter 521 - pre-2023),commercial
+minneapolis,C3A,legacy_code_flat,Community Activity Center District (Chapter 521 - pre-2023),commercial
+minneapolis,C3S,legacy_code_flat,Community Shopping Center District (Chapter 521 - pre-2023),commercial
+minneapolis,C4,legacy_code_flat,General Commercial District (Chapter 521 - pre-2023),commercial
+minneapolis,I1,legacy_code_flat,Light Industrial District (Chapter 521 - pre-2023),industrial
+minneapolis,I2,legacy_code_flat,Medium Industrial District (Chapter 521 - pre-2023),industrial
+minneapolis,I3,legacy_code_flat,General Industrial District (Chapter 521 - pre-2023),industrial
+minneapolis,B4,legacy_code_flat,Downtown Business District (Chapter 521 - pre-2023),mixed-use
+minneapolis,B4S,legacy_code_flat,Downtown Service District (Chapter 521 - pre-2023),commercial
+minneapolis,B4C,legacy_code_flat,Downtown Commercial District (Chapter 521 - pre-2023),mixed-use
+chicago,POS-1,current_code_flat,Parks and Open Space District,open_space
+kansas_city,KCIA,current_code_flat,Kansas City International Airport Special District,other
+los_angeles,OS,current_code_flat,Open Space Zone,open_space
+los_angeles,A1,current_code_flat,Agriculture Zone,open_space
+los_angeles,A2,current_code_flat,Agricultural Zone,open_space
+los_angeles,RA,current_code_flat,Suburban Zone (Residential Agricultural),residential
+los_angeles,RE,current_code_flat,Residential Estate Zone,residential
+los_angeles,RW1,current_code_flat,Residential Waterways Zone,residential
+los_angeles,RMP,current_code_flat,Residential Mobile Home Park Zone,residential
+los_angeles,RW2,current_code_flat,Residential Waterways Zone,residential
+los_angeles,CR,current_code_flat,Commercial Recreation Zone,commercial
+los_angeles,PF,current_code_flat,Public Facilities Zone,institutional
+seattle,MIO,current_code_flat,Major Institution Overlay,institutional
+dallas,RR,current_code_flat,Rural Residential District,residential
+denver,C-SU-DX,current_code_segment,Single Unit (with combining-district height variant),residential
+los_angeles,RS,current_code_flat,Suburban Zone,residential
+seattle,MPC,current_code_flat,Master Planned Community,mixed-use
+boston,LIA,current_code_flat,Logan International Airport Special Zoning District,other
+los_angeles,SL,current_code_flat,Submerged Land Zone,industrial
+los_angeles,PB,current_code_flat,Parking Buffer Zone,other
+los_angeles,LAX,current_code_flat,Los Angeles International Airport Specific Plan Zone,other
+los_angeles,R1V1,current_code_flat,R1 Variation Zone 1,residential
+los_angeles,R1V2,current_code_flat,R1 Variation Zone 2,residential
+los_angeles,R1V3,current_code_flat,R1 Variation Zone 3,residential
+los_angeles,CW,current_code_flat,Central City Specific Plan Zone,mixed-use
+los_angeles,WC,current_code_flat,Warner Center Specific Plan Zone,mixed-use
+los_angeles,LASED,current_code_flat,Los Angeles Sports and Entertainment District Specific Plan Zone,mixed-use
+los_angeles,USC-1A,current_code_flat,University of Southern California University Park Campus Specific Plan Subarea 1A Zone,institutional
+los_angeles,USC-1B,current_code_flat,University of Southern California University Park Campus Specific Plan Subarea 1B Zone,institutional
+los_angeles,USC-2,current_code_flat,University of Southern California University Park Campus Specific Plan Subarea 2 Zone,institutional
+los_angeles,USC-3,current_code_flat,University of Southern California University Park Campus Specific Plan Subarea 3 Zone,institutional
+los_angeles,PVSP,current_code_flat,Ponte Vista at San Pedro Specific Plan Zone,residential
+los_angeles,CEC,current_code_flat,Convention and Event Center Specific Plan Zone,institutional
+los_angeles,P,current_code_flat,Automobile Parking Zone,other
+los_angeles,FRWY,current_code_flat,Freeway Zone,other
+los_angeles,R1H1,current_code_flat,R1 Hillside Variation Zone,residential
+san_diego,OTOP,current_code_flat,Old Town Open Space Planned District,open_space
+san_diego,OTCC,current_code_flat,Old Town Community Commercial Planned District,commercial
+san_diego,CSPD-CASS-STREET,current_code_flat,Cass Street Planned District,commercial
+austin,UNO,current_code_flat,University Neighborhood Overlay Combining District,mixed-use
+austin,NCCD,current_code_flat,Neighborhood Conservation Combining District,residential
+austin,TND,current_code_flat,Traditional Neighborhood Development District,mixed-use
+austin,MU,current_code_flat,Mixed Use Combining District,mixed-use
+austin,V,current_code_flat,Vertical Mixed Use Building Combining District,mixed-use
+austin,REC&OS,current_code_flat,Recreation and Open Space,open_space
+austin,IND,current_code_flat,Industrial (generic),industrial
+austin,MF,current_code_flat,Multifamily (generic),residential
+austin,HD,current_code_flat,Historic Combining District,other
+austin,SF-2A,current_code_flat,Single-Family Residence Standard Lot District,residential
+indianapolis,CS,current_code_flat,Commercial Service District,commercial
+indianapolis,PK2,current_code_flat,Park Development Plan District,open_space
+baltimore,OS,current_code_flat,Open Space District,open_space
+baltimore,C-4,current_code_flat,Commercial District,commercial
+baltimore,C-5,current_code_flat,Commercial District,commercial
+chicago,POS-2,current_code_flat,Parks and Open Space District,open_space
+chicago,POS-3,current_code_flat,Parks and Open Space District,open_space
+kansas_city,R-3,current_code_flat,Residential 3,residential
+dallas,WMU,current_code_flat,Walkable Urban Mixed Use District,mixed-use
+dallas,WR,current_code_flat,Walkable Urban Residential District,residential
+dallas,NO,current_code_flat,Neighborhood Office District,commercial
+nashville,I,current_code_flat,Industrial (generic),industrial
+nashville,SP,current_code_flat,Specific Plan District,other
+nashville,AR2A,current_code_flat,Agricultural District (2 acre minimum),open_space
+san_diego,CU,current_code_flat,Central Urbanized Planned District,mixed-use
+san_diego,CT,current_code_flat,Commercial-Transitional Zone,mixed-use
+san_diego,LI,current_code_flat,Light Industrial Base Zone,industrial
+denver,GTWY,current_code_flat,Gateway District,mixed-use
+denver,MHC,current_code_flat,Manufactured Home Community District,residential
+detroit,MKT,current_code_flat,Eastern Market District,commercial
+charlotte,R-4,legacy_code_flat,Single-Family Residential District (legacy),residential
+charlotte,R-5,legacy_code_flat,Single-Family Residential District (legacy),residential
+charlotte,R-9,legacy_code_flat,Single-Family Residential District (legacy),residential
+charlotte,R-12,legacy_code_flat,Single-Family Residential District (legacy),residential
+charlotte,R-15,legacy_code_flat,Single-Family Residential District (legacy),residential
+charlotte,R-20,legacy_code_flat,Single-Family Residential District (legacy),residential
+charlotte,R-8MF,legacy_code_flat,Multi-Family Residential District (legacy),residential
+charlotte,R-12MF,legacy_code_flat,Multi-Family Residential District (legacy),residential
+charlotte,R-15MF,legacy_code_flat,Multi-Family Residential District (legacy),residential
+charlotte,R-17MF,legacy_code_flat,Multi-Family Residential District (legacy),residential
+charlotte,R-20MF,legacy_code_flat,Multi-Family Residential District (legacy),residential
+charlotte,I-1,legacy_code_flat,Light Industrial District (legacy),industrial
+charlotte,I-2,legacy_code_flat,General Industrial District (legacy),industrial
+charlotte,INST,legacy_code_flat,Institutional District (legacy),institutional
+charlotte,B-1,legacy_code_flat,Neighborhood Business District (legacy),commercial
+charlotte,B-2,legacy_code_flat,General Business District (legacy),commercial
+charlotte,MX-3,current_code_flat,Mixed-Use Zoning District,mixed-use
+seattle,C1I,current_code_flat,Commercial 1 (Incentive),commercial
+seattle,LR2I,current_code_flat,Lowrise Multifamily 2 (Incentive),residential
+seattle,LR3I,current_code_flat,Lowrise Multifamily 3 (Incentive),residential
+seattle,MRI,current_code_flat,Midrise Multifamily (Incentive),residential
+seattle,NC1I,current_code_flat,Neighborhood Commercial 1 (Incentive),commercial
+seattle,NC2I,current_code_flat,Neighborhood Commercial 2 (Incentive),commercial
+seattle,NC3I,current_code_flat,Neighborhood Commercial 3 (Incentive),commercial
+seattle,RSL,current_code_flat,Lowrise Multifamily 1 (alias),residential
+seattle,SMI,current_code_flat,Seattle Mixed (Incentive),mixed-use
+seattle,SMR,current_code_flat,Seattle Mixed (Residential variant),mixed-use
+seattle,SMRI,current_code_flat,Seattle Mixed (Residential Incentive variant),mixed-use
+indianapolis,HP1,current_code_flat,Historic Preservation District,other
+dallas,MO,current_code_flat,Mid-Range Office District,commercial
+dallas,O-2,current_code_flat,High-Intensity Office District (variant),commercial
+dallas,MF-2,current_code_flat,Multifamily District,residential
+denver,O-2,current_code_flat,Open Zone District (variant),other
+minneapolis,B4N,legacy_code_flat,Downtown Business District (Chapter 521 - pre-2023),mixed-use
+san_diego,LJPD-1,current_code_flat,La Jolla Planned District Zone 1,mixed-use
+san_diego,LJPD-1A,current_code_flat,La Jolla Planned District Zone 1A,mixed-use
+san_diego,LJPD-2,current_code_flat,La Jolla Planned District Zone 2,mixed-use
+san_diego,LJPD-3,current_code_flat,La Jolla Planned District Zone 3,mixed-use
+san_diego,LJPD-4,current_code_flat,La Jolla Planned District Zone 4,mixed-use
+san_diego,LJPD-5,current_code_flat,La Jolla Planned District Zone 5,mixed-use
+san_diego,LJPD-5A,current_code_flat,La Jolla Planned District Zone 5A,mixed-use
+san_diego,LJPD-6,current_code_flat,La Jolla Planned District Zone 6,mixed-use
+san_diego,LJPD-6A,current_code_flat,La Jolla Planned District Zone 6A,mixed-use
+indianapolis,UQ2,current_code_flat,University Quarter Development Plan District,institutional
+chicago,RM4-.5,current_code_flat,Residential Multi-Unit District,residential
+chicago,RT-4A,current_code_flat,Residential Two-Flat Townhouse and Multi-Unit District,residential
+los_angeles,CCS,current_code_flat,Century City South Studio Zone,commercial
+los_angeles,PPSP,current_code_flat,Paramount Pictures Specific Plan,commercial
+los_angeles,GW,current_code_flat,Greenway Zone,open_space
+los_angeles,UC,current_code_flat,Urban Center (Cornfield-Arroyo Specific Plan),mixed-use
+los_angeles,UI,current_code_flat,Urban Innovation (Cornfield-Arroyo Specific Plan),mixed-use
+los_angeles,UV,current_code_flat,Urban Village (Cornfield-Arroyo Specific Plan),mixed-use
+los_angeles,MU,current_code_flat,Mixed Use District,mixed-use
+los_angeles,LACFCD,current_code_flat,LA County Flood Control District,other
+los_angeles,R1R3,current_code_flat,One-Family Zone (R1/R3 combined designation),residential
+austin,0,other_flat,Data artifact (literal zero placeholder),other
+austin,A,current_code_flat,Agricultural District,open_space
+austin,A-H,current_code_flat,Agricultural District (Historic overlay),open_space
+austin,CIV,current_code_flat,Civic,institutional
+austin,COMM,current_code_flat,Commercial (generic),commercial
+austin,DM,current_code_flat,Downtown Mixed Use (Historic Overlay),commercial
+austin,LDC 25-2-222,other_flat,Code section reference (data artifact),other
+austin,NBG,current_code_flat,North Burnet/Gateway,mixed-use
+austin,O,current_code_flat,Office (generic),commercial
+austin,O-1,current_code_flat,Office-1,commercial
+austin,O-H,current_code_flat,Office (Historic overlay),commercial
+austin,OFF,current_code_flat,Office (generic),commercial
+austin,SP-3-NP,other_flat,Specific Plan 3 (Neighborhood Plan combining),other
+austin,UTIL,other_flat,Utility,other
+austin,"LO,LR",current_code_flat,Limited Office,commercial
+austin,SF,current_code_flat,Single-Family Residence District,residential
+austin,SF-4,current_code_flat,Single-Family Residence District,residential
+austin,MULTIPLE,other_flat,Multiple zoning designations (data artifact),other
+austin,MULTI,other_flat,Multiple zoning designations (data artifact),other
+austin,REMOVED FROM FLUM,other_flat,Removed from Future Land Use Map (data artifact),other
+austin,Relocate Land Use Designations,other_flat,Administrative note (data artifact),other
+austin,HDSF,current_code_flat,Historic Area (Single-Family context),other
+austin,MAJ PD,current_code_flat,Major Planned Development,other
+austin,UNZ,other_flat,Unzoned,other
+austin,UNZ-H,other_flat,Unzoned (Historic overlay),other
+austin,VMU,current_code_flat,Vertical Mixed Use,mixed-use
+austin,UNDESIGNATED-HISTORIC,other_flat,Undesignated (Historic overlay),other
+austin,Excl from Verticle Mixed Use,other_flat,Excluded from Vertical Mixed Use (data artifact),other
+austin,Exempt H,other_flat,Historic exemption (data artifact),other
+austin,Vacated,other_flat,Vacated designation (data artifact),other
+austin,DMH,current_code_flat,Downtown Mixed Use (Historic),commercial
+denver,IMX,current_code_segment,Industrial Mixed Use,mixed-use
+denver,PUD,current_code_flat,Planned Unit Development,other
+charlotte,OFC,current_code_flat,Office Flex Campus Zoning District,commercial
+charlotte,OG,current_code_flat,Office General Zoning District,commercial
+charlotte,RC,current_code_flat,Research Campus Zoning District,other
+san_francisco,RTO,current_code_flat,Residential Transit Oriented District,residential
+san_francisco,SLR,current_code_flat,Service/Light Industrial/Residential,mixed-use
+san_francisco,C-3-S,current_code_flat,Downtown Support,commercial
+san_francisco,MB-RA,current_code_flat,Mission Bay Redevelopment Area (see Mission Bay South Redevelopment Plans),other
+san_francisco,HP-RA,current_code_flat,Hunters Point Redevelopment Area (see Hunters Point Redevelopment Plans),other
+boston,EDA,current_code_flat,Economic Development Area District,mixed-use
+boston,EPS,legacy_code_flat,Enterprise Protection Subdistrict,industrial
+detroit,PD,current_code_flat,Planned Development District,other
+detroit,SD3,current_code_flat,Special District - Technology and Research,other
+miami,T2,current_code_flat,Rural Transect Zone,open_space
+miami,T4,current_code_segment,General Urban Transect Zone,residential
+minneapolis,PR1,current_code_flat,Production Mixed-Use District,mixed-use
+new_orleans,GPD,current_code_flat,General Planned Development District,other
+new_orleans,S-LM,current_code_flat,Lake Area Marina District,other
+new_orleans,MS,current_code_flat,Medical Service District,commercial
+new_orleans,LS,current_code_flat,Life Science Mixed-Use District,mixed-use
+new_orleans,CBD-3,current_code_flat,Cultural Arts District,institutional
+new_orleans,CBD-7,current_code_flat,Bio-Science District,other
+austin,W/LO,current_code_flat,Warehouse/Limited Office District,commercial
+austin,R&D,current_code_flat,Research and Development District,other
+austin,PUD,current_code_flat,Planned Unit Development District,other
+baltimore,R-1,current_code_flat,Detached Residential District,residential
+baltimore,R-2,current_code_flat,Detached Residential District,residential
+baltimore,BSC,current_code_flat,Bio-Science Campus District,mixed-use
+chicago,C3,current_code_flat,Commercial Manufacturing and Employment District,industrial
+chicago,M2,current_code_flat,Light Industry District,industrial
+chicago,M3,current_code_flat,Heavy Industry District,industrial
+chicago,T,current_code_flat,Transportation District,other
+cincinnati,MA,current_code_flat,Manufacturing District,industrial
+cincinnati,ML,current_code_flat,Manufacturing District,industrial
+cincinnati,MG,current_code_flat,Manufacturing District,industrial
+cincinnati,ME,current_code_flat,Manufacturing District,industrial
+dallas,LO,current_code_flat,Local Office District,commercial
+dallas,GO,current_code_flat,General Office District,commercial
+dallas,O-3,current_code_flat,High-Intensity Office District,commercial
+dallas,LR,current_code_flat,Local Retail District,commercial
+dallas,CR,current_code_flat,Community Retail District,commercial
+dallas,NC,current_code_flat,Neighborhood Commercial District,commercial
+dallas,GC,current_code_flat,General Commercial District,commercial
+dallas,CS,current_code_flat,Commercial Service District,commercial
+dallas,CA-1,current_code_flat,Central Area District,commercial
+dallas,CA-2,current_code_flat,Central Area District,commercial
+dallas,LI,current_code_flat,Light Industrial District,industrial
+dallas,IR,current_code_flat,Industrial Research District,industrial
+dallas,IM,current_code_flat,Industrial Manufacturing District,industrial
+dallas,HI,current_code_flat,Heavy Industrial District,industrial
+dallas,MU-1,current_code_flat,Mixed Use District,mixed-use
+indianapolis,D-P,current_code_flat,Planned Unit Development District,other
+kansas_city,M1,current_code_flat,Light Industrial District,industrial
+kansas_city,M2,current_code_flat,General Industrial District,industrial
+kansas_city,M3,current_code_flat,Heavy Industrial District,industrial
+kansas_city,MPD,current_code_flat,Master Planned Development District,other
+los_angeles,CM,current_code_flat,Commercial Manufacturing Zone,mixed-use
+san_diego,OP,current_code_flat,Open Space Base Zone,open_space
+san_diego,RE,current_code_flat,Residential Estate Base Zone,residential
+san_diego,RX,current_code_flat,Residential Rural Base Zone,residential
+san_diego,IBT,current_code_flat,Industrial Business/Technology Park Base Zone,industrial
+seattle,C2,current_code_flat,Commercial 2,commercial
+seattle,DRC,current_code_flat,Downtown Retail Core,mixed-use
+seattle,IC,current_code_flat,Industrial Commercial,mixed-use
+seattle,II,current_code_flat,Industry and Innovation,industrial
+new_york,C1,current_code_flat,Commercial District (Local Retail/Service),commercial
+new_york,M1,current_code_flat,Light Manufacturing District,industrial
+cincinnati,T5N.SS,current_code_flat,T5 Neighborhood Small Setback (Cincinnati Form-Based Code Transect Zone),residential
+minneapolis,OR3,legacy_code_flat,Institutional Office Residence District (Chapter 521 - pre-2023),mixed-use
+baltimore,R-1-E,current_code_flat,Detached Residential District,residential
+baltimore,R-1-D,current_code_flat,Detached Residential District,residential
+chicago,PD,current_code_flat,Planned Development,other
+dallas,PD,current_code_flat,Planned Development District,other
+indianapolis,PK1,current_code_flat,Park District,open_space
+indianapolis,SU,current_code_flat,Special Use District,other
+kansas_city,AG-R,current_code_flat,Agricultural-Residential District,other
+kansas_city,UR,current_code_flat,Urban Redevelopment District,mixed-use
+los_angeles,RU,current_code_flat,Restricted Density Multiple Dwelling Zone,residential
+los_angeles,RZ,current_code_flat,Residential Zone (unconfirmed variant),residential
+los_angeles,RAS3,current_code_flat,Residential/Accessory Services Zone,mixed-use
+los_angeles,RAS4,current_code_flat,Residential/Accessory Services Zone,mixed-use
+charlotte,MX-1,current_code_flat,Mixed-Use Zoning District,mixed-use
+charlotte,MX-2,current_code_flat,Mixed-Use Zoning District,mixed-use
+charlotte,MUDD-O,current_code_flat,Mixed Use Development District (Optional),mixed-use
+dallas,CD,current_code_flat,Conservation District,other
+san_diego,OR,current_code_flat,Office Residential Base Zone,mixed-use
+detroit,Market and Distribution District,current_code_flat,Market and Distribution District,commercial
+los_angeles,ADP,current_code_flat,Alameda District Specific Plan Zone,mixed-use
+san_diego,OTMCR,current_code_flat,Old Town Mixed Commercial-Residential Planned District,mixed-use
+san_diego,OTRM,current_code_flat,Old Town Residential Multi-Family Planned District,residential
+san_diego,OTRS,current_code_flat,Old Town Residential Single-Family Planned District,residential
+indianapolis,UQ1,current_code_flat,University Quarter Development Plan District,institutional
+indianapolis,HD1,current_code_flat,Hospital Development Plan District,institutional
+indianapolis,HD2,current_code_flat,Hospital Development Plan District,institutional
+baltimore,R-9,current_code_flat,Multi-Family Residential District,residential
+baltimore,R-10,current_code_flat,Multi-Family Residential District,residential
+kansas_city,SC,current_code_flat,Shoal Creek District,residential
+kansas_city,DC,current_code_flat,Downtown Core District,mixed-use
+kansas_city,DX,current_code_flat,Downtown District (unconfirmed variant),mixed-use
+kansas_city,DR,current_code_flat,Downtown Residential District (unconfirmed),residential
+kansas_city,CXO,current_code_flat,Corridor Overlay District,other
+dallas,UC,current_code_flat,Urban Corridor District,mixed-use
+dallas,GR,current_code_flat,General Retail District (unconfirmed),commercial
+charlotte,UR-2,legacy_code_flat,Urban Residential District (legacy),residential
+baltimore,H,current_code_flat,Hospital Campus Districts,institutional
+cincinnati,PD,current_code_flat,Planned Development Control,other
+dallas,MC,current_code_flat,Multiple Commercial,commercial
+indianapolis,CBDS,current_code_flat,Central Business District Special,commercial
+indianapolis,HP,current_code_flat,Historic Preservation District,other
+indianapolis,SU,current_code_flat,Special Use,other
+indianapolis,SZ1,current_code_flat,Speedway Main Street District,other
+indianapolis,SZ2,current_code_flat,Speedway Industrial District,other
+kansas_city,M4,current_code_flat,Manufacturing 4,industrial
