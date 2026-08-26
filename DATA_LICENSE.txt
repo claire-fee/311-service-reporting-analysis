@@ -1,0 +1,41 @@
+Data License
+============
+
+Unless otherwise noted, all data files in this repository (including but
+not limited to CSV files, GeoPackages, and shapefiles) are licensed under
+the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+
+This license applies to the data files only. All code, scripts, and
+notebooks in this repository are licensed separately under the MIT
+License (see LICENSE).
+
+You are free to:
+  - Share — copy and redistribute the data in any medium or format
+  - Adapt — remix, transform, and build upon the data for any purpose,
+    even commercially
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to
+    this repository, and indicate if changes were made. You may do so
+    in any reasonable manner, but not in any way that suggests the
+    licensor endorses you or your use.
+
+No additional restrictions — You may not apply legal terms or
+technological measures that legally restrict others from doing anything
+the license permits.
+
+Suggested attribution:
+
+    Claire Feeney, "Beyond the Squeaky Wheel: A Multi-City Comparative Analysis of Differentiated Engagement and Demographic Equity in 311 Reporting Gaps" (2026), 311-service-reporting-analysis
+    dataset, University College London. Available at:
+    https://github.com/[your-username]/311-service-reporting-analysis
+
+Full legal text of the license is available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Note: some data referenced or derived in this repository originates from
+third-party public open data portals (e.g. municipal open data repositories, US
+Census Bureau, city GIS departments). Where applicable, refer to the
+original source's own license/terms for the underlying raw data; this
+CC-BY license applies to the versions of the data prepared and published
+by the author in this repository.

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Beyond the Squeaky Wheel: A Multi-City Comparative Analysis of Differentiated Engagement and Demographic Equity in 311 Reporting Gaps"
+type: software
+authors:
+  - given-names: Claire
+    family-names: Feeney
+    affiliation: "University College London"
+    orcid: "https://orcid.org/[your-orcid-if-you-have-one]"
+abstract: >-
+  Analysis pipeline for non-emergency 311 service request data across
+  18 US cities, including keyword classification of service requests,
+  construction of service proportionality indices (expressed 311 demand
+  vs. objective need from land use and physical conditions), engagement
+  scoring, and spatial regression against demographic conditions to
+  identify patterns of under- and over-reporting.
+version: 1.0.0
+date-released: "2026-08-27"
+repository-code: "https://github.com/[your-username]/311-service-reporting-analysis"
+url: "https://github.com/[your-username]/311-service-reporting-analysis"
+license: MIT
+keywords:
+  - 311
+  - service requests
+  - urban planning
+  - spatial analysis
+  - geographic data science
+  - civic tech
+  - service equity
